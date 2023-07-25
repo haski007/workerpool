@@ -70,3 +70,4 @@ func Throttle(interval time.Duration) func() {
 		<-ticker.C
 	}
 }
+
